@@ -1,0 +1,46 @@
+.items-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  max-width: 200px; /* Ajusta el ancho máximo según tus necesidades */
+}
+
+.items-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.items-title {
+  margin-top: 10px;
+}
+
+.items-title p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.items-title p:last-child {
+  color: #555;
+}
+
+.items-button {
+  margin-top: 10px;
+}
+
+.items-button button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.items-button button:hover {
+  background-color: #45a049;
+}

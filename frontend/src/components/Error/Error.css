@@ -1,0 +1,16 @@
+.error-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error-container img{
+    width: 400px;
+}
+.error-container a {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 5px 10px 5px 10px;
+    border-radius: 40px;
+}
